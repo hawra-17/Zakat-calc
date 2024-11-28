@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Zakat-calc/static/css/main.38031f59.css",
+    "main.js": "/Zakat-calc/static/js/main.6d6981bb.js",
+    "static/js/453.d86eaf5a.chunk.js": "/Zakat-calc/static/js/453.d86eaf5a.chunk.js",
+    "index.html": "/Zakat-calc/index.html",
+    "main.38031f59.css.map": "/Zakat-calc/static/css/main.38031f59.css.map",
+    "main.6d6981bb.js.map": "/Zakat-calc/static/js/main.6d6981bb.js.map",
+    "453.d86eaf5a.chunk.js.map": "/Zakat-calc/static/js/453.d86eaf5a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38031f59.css",
+    "static/js/main.6d6981bb.js"
+  ]
+}
