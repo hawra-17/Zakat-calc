@@ -13,7 +13,7 @@ export default function NavPar() {
       <nav className="bg-slate-200 p-4 flex justify-between sticky top-0 left-0 z-50">
         <div className="flex items-center gap-2">
           <CiCalculator1 size={30} />
-          <p className="font-bold">Zahah</p>
+          <p className="font-bold">Zakat</p>
         </div>
         <div className="flex gap-x-3">
           {taps.map((tap) => (
