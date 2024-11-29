@@ -1,4 +1,6 @@
 import { CiCalculator1 } from "react-icons/ci";
+import { Link } from "react-router-dom";
+
 export default function NavPar() {
   const taps = ["Home", "About", "Conact"];
   return (
@@ -9,9 +11,11 @@ export default function NavPar() {
       </div>
 
       <div className="flex gap-x-3">
-        {taps.map((val) => {
-          return <div>{val}</div>;
-        })}
+        {taps.map((val) => (
+          <Link to={`/${val.toLowerCase()}`} key={val}>
+            {val}
+          </Link>
+        ))}
       </div>
       {/* map using for cutshort for loop */}
     </nav>
