@@ -12,8 +12,9 @@ import Home from "./components/Home";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<NavPar />}>
-      <Route path="cardblock" element={<CardBlock />} /> {/* CardBlock route */}
-      <Route path="home" element={<Home />} /> {/* Route for /home */}
+      <Route index element={<Home />} />
+      <Route path="cardblock" element={<CardBlock />} />
+      <Route path="*" element={<Home />} />
     </Route>
   )
 );

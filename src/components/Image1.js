@@ -6,7 +6,7 @@ import Image4 from "./Image4.png";
 
 export default function AllF() {
   return (
-    <div className=" flex flex-warp justify-center gap-3 bg-gray-50">
+    <div className=" flex flex-warp justify-center gap-3 bg-green-50">
       <FeatureCard photo={Image} description="Poor and needy people" />
       <FeatureCard photo={Image2} description="Freeing slaves" />
       <FeatureCard photo={Image3} description="Debt-ridden" />
