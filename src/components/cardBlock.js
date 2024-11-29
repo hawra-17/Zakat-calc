@@ -4,7 +4,7 @@ import Ginput from "./Ginput";
 export default function CardBlock() {
   return (
     <div className="flex flex-col justify-center items-center gap-3">
-      <h1 className="text-xl font-bold">Calculate your Zakah</h1>
+      <h1 className="text-xl font-bold">Calculate your Zakat</h1>
       <InputHolders />
     </div>
   );
