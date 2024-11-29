@@ -12,21 +12,14 @@ import Home from "./components/Home";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<NavPar />}>
-      <Route index element={<Home />} />
+      <Route path="cardblock" element={<CardBlock />} /> {/* CardBlock route */}
+      <Route path="home" element={<Home />} /> {/* Route for /home */}
     </Route>
   )
 );
 
 function App() {
-  return (
-    <main>
-      <NavPar />
-      <RouterProvider router={router} />
-      <div className="bg-green-50 h-screen flex flex-col justify-center items-center p-44">
-        <CardBlock />
-      </div>
-    </main>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
