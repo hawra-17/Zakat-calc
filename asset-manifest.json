@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Zakat-calc/static/css/main.ac04acdf.css",
-    "main.js": "/Zakat-calc/static/js/main.76b2c091.js",
+    "main.js": "/Zakat-calc/static/js/main.3b715beb.js",
     "static/js/453.d86eaf5a.chunk.js": "/Zakat-calc/static/js/453.d86eaf5a.chunk.js",
     "static/media/Image1.png": "/Zakat-calc/static/media/Image1.8f571d4b9f53a6682491.png",
     "static/media/Image3.png": "/Zakat-calc/static/media/Image3.f08570da2834af733665.png",
@@ -9,11 +9,11 @@
     "static/media/Image4.png": "/Zakat-calc/static/media/Image4.66bba7583c2c4e4684c9.png",
     "index.html": "/Zakat-calc/index.html",
     "main.ac04acdf.css.map": "/Zakat-calc/static/css/main.ac04acdf.css.map",
-    "main.76b2c091.js.map": "/Zakat-calc/static/js/main.76b2c091.js.map",
+    "main.3b715beb.js.map": "/Zakat-calc/static/js/main.3b715beb.js.map",
     "453.d86eaf5a.chunk.js.map": "/Zakat-calc/static/js/453.d86eaf5a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac04acdf.css",
-    "static/js/main.76b2c091.js"
+    "static/js/main.3b715beb.js"
   ]
 }
