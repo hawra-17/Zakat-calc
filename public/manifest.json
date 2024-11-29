@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Zakah App",
+  "name": "Zakah app for calculation",
   "icons": [
     {
       "src": "favicon.ico",
